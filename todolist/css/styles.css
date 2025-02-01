@@ -1,0 +1,31 @@
+/* Mobile First Approach */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .navbar-nav {
+        flex-direction: row;
+        gap: 1rem;
+    }
+    
+    .form-control, .btn {
+        font-size: 16px;
+        height: 48px;
+    }
+    
+    .card {
+        border: none;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+}
+
+/* General Styling */
+body {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.btn {
+    padding: 12px 20px;
+}
