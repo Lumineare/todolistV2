@@ -1,7 +1,6 @@
 <?php
-// auth/logout.php
-require_once '../includes/config.php';
-
+require_once __DIR__ . '/../includes/config.php';
+require_once __DIR__ . '/../includes/header.php';
 // Hancurkan semua data sesi
 $_SESSION = array();
 
